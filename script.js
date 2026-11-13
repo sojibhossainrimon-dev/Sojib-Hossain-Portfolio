@@ -1,6 +1,6 @@
 
 /* =====================================
-   RIMON PORTFOLIO - JAVASCRIPT
+   Sojib Hossain PORTFOLIO - JAVASCRIPT
 ===================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 3. DARK / LIGHT MODE
     // =================================
 
-    const savedTheme = localStorage.getItem("rimon-theme");
+    const savedTheme = localStorage.getItem("Sojib-Hossain-theme");
 
     if (savedTheme === "light") {
         document.body.classList.add("light-theme");
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     ? "light"
                     : "dark";
 
-            localStorage.setItem("rimon-theme", currentTheme);
+            localStorage.setItem("Sojib-Hossain-theme", currentTheme);
 
             updateThemeIcon();
 
@@ -453,7 +453,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // =================================
 
     console.log(
-        "%c Welcome to Rimon's Portfolio! ",
+        "%c Welcome to Sojib Hossain's Portfolio! ",
         "background: #8b5cf6; color: white; font-size: 16px; padding: 10px;"
     );
 
