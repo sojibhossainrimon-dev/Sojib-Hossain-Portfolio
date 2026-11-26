@@ -1202,3 +1202,32 @@ img {
         transform: none;
     }
 }
+
+
+/* Language Switcher (added without changing the existing theme) */
+.language-toggle {
+    height: 42px;
+    padding: 0 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    background: var(--card);
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: var(--transition);
+}
+
+.language-toggle:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 360px) {
+    .language-toggle {
+        height: 38px;
+        padding: 0 8px;
+        font-size: 12px;
+    }
+}
